@@ -7,7 +7,7 @@
   "action": {
     "default_popup": "index.html",
     "default_title": "Payroll Pal",
-    "default_icon" : "../src/assets/payroll-icon.png",
+    "default_icon" : "./payroll-icon.png",
     "background": {
       "permissions": ["activeTab", "scripting"],
       "page": "index.html",
