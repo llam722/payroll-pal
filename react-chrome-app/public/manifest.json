@@ -12,6 +12,7 @@
       "type": "image/x-icon"
     }
   ],
+  "permissions": [],
   "browser_action": {
     "default_popup": "index.html",
     "default_title": "Payroll Pal"
