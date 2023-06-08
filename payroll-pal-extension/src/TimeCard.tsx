@@ -3,16 +3,17 @@ const TimeCard = () => {
   return (
     <div>
       <ul>
-        <li>MON</li>
-        <li>TUE</li>
-        <li>WED</li>
-        <li>THUR</li>
-        <li>FRI</li>
-        <li>SAT</li>
-        <li>SUN</li>
+        <li><h4>MON</h4></li>
+        <li><h4>TUE</h4></li>
+        <li><h4>WED</h4></li>
+        <li><h4>THU</h4></li>
+        <li><h4>FRI</h4></li>
+        <li><h4>SAT</h4></li>
+        <li><h4>SUN</h4></li>
       </ul>
     </div>
-    )
-}
+  
+  )
+};
 
 export default TimeCard;
