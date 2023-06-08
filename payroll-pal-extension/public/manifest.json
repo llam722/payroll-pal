@@ -1,0 +1,20 @@
+{
+  "short_name": "Payroll Pal",
+  "name": "Payroll Pal",
+  "version": "1.0",
+  "description": "Hourly Calculator for Payroll",
+  "manifest_version": 3,
+  "author": "Louis Lam",
+  "icons": 
+    {
+    "16": "favicon.ico",
+    "48": "favicon.ico",
+   "128": "favicon.ico"
+    }
+  ,
+  "permissions": [],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Payroll Pal"
+  }
+}
