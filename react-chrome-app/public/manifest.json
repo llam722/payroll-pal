@@ -5,15 +5,15 @@
   "description": "Hourly Calculator for Payroll",
   "manifest_version": 3,
   "author": "Louis Lam",
-  "icons": [
+  "icons": 
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+    "16": "favicon.ico",
+    "48": "favicon.ico",
+   "128": "favicon.ico"
     }
-  ],
+  ,
   "permissions": [],
-  "browser_action": {
+  "action": {
     "default_popup": "index.html",
     "default_title": "Payroll Pal"
   }
