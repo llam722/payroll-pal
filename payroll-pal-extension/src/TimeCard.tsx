@@ -1,10 +1,12 @@
 
 const TimeCard = () => {
   return (
-    <div>
+    <div className="timecard">
+      <header className="timecard-header">
       <h2>IN</h2>
       <h2>OUT</h2>
-      <div>
+      </header>
+      <section className="timecard-body">
         <ul>
           <li><h5>MON</h5></li>
           <li><h5>TUE</h5></li>
@@ -14,9 +16,7 @@ const TimeCard = () => {
           <li><h5>SAT</h5></li>
           <li><h5>SUN</h5></li>
         </ul>
-      </div>
-
-
+      </section>
     </div>
   
   )

@@ -10,7 +10,6 @@ function App() {
       </header>
       <div className="App-body">
         <TimeCard/>
-
       </div>
 
       
