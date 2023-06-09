@@ -1,6 +1,8 @@
 
 
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   width: 750px;
   height: auto;
