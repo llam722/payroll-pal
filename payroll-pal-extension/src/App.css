@@ -25,6 +25,8 @@
   font-size: 1rem;
   color: white;
   border-radius: 25px;
+  overflow: hidden;
+  padding: 1em;
 }
 
 .App-link {
