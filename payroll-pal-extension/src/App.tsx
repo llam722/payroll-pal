@@ -7,8 +7,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Payroll Pal</h1>
-    <TimeCard/>
+        <TimeCard/>
       </header>
+      <div className="App-body">
+
+      </div>
     </div>
   );
 }
