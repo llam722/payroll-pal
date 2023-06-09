@@ -1,13 +1,11 @@
 
 
 .App {
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  width: 780px;
-  height: 680px;
+  width: 750px;
+  height: auto;
   background-color: #FFB978;
-  margin: auto;
+  margin: 10px;
   }
 
 .App-header {
