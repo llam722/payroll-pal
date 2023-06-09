@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 import TimeCard from './TimeCard'
 
@@ -7,11 +7,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Payroll Pal</h1>
-        <TimeCard/>
       </header>
       <div className="App-body">
+        <TimeCard/>
 
       </div>
+
+      
     </div>
   );
 }

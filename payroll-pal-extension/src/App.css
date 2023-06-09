@@ -7,7 +7,9 @@
   background-color: #FFB978;
   margin: 10px;
   border-radius: 40px;
+  color: white;
   }
+
 
 .App-header {
   display: flex;
@@ -15,7 +17,6 @@
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  color: white;
   border-radius: 25px;
 }
 
