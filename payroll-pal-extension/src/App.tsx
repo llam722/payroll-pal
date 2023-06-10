@@ -11,6 +11,10 @@ function App() {
       <div className="App-body">
         <TimeCard/>
       </div>
+      <div className="App-totals">
+        <p>Hourly Rate</p>
+        <p>Totals</p>
+      </div>
 
       
     </div>

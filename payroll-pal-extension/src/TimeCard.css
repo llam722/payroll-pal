@@ -4,6 +4,7 @@
   background-color: #FFFFFF;
   color: black;
   border: 1px solid red;
+  height: 15%
 }
 
 .timecard-header {
@@ -11,8 +12,8 @@
   justify-content: space-around;
   align-items: center;
   /* gap: 10rem; */
-  border: 1px solid black;
-  width: 60%
+  /* border: 1px solid black; */
+  width: 70%
 }
 
 .calculations {
@@ -20,8 +21,8 @@
   justify-content: space-around;
   align-items: center;
   /* gap: 10rem; */
-  border: 1px solid black;
-  width: 40%
+  /* border: 1px solid black; */
+  width: 30%
 }
 
 /* .timecard- {

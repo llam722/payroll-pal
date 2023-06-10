@@ -1,27 +1,39 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Kanit&display=swap');
 
 .App {
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 750px;
-  height: auto;
-  background-color: #FFB978;
+  height: 562.5px;
   margin: 10px;
-  border-radius: 40px;
+  background-color: #FFB978;
   color: white;
-  }
-
+  border-radius: 40px;
+  font-family: 'Inter', 'sans-serif';
+  box-sizing: border-box;
+}
 
 .App-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
-  border-radius: 25px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.25rem;
+  margin-right: 250px;
+  height: 15%;
 }
 
-.App-link {
-  color: #61dafb;
+.App-body {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  border: 1px solid blue;
+}
+
+.App-totals {
+  border: 1px solid red;
+  height: 15%;
+  color: white;
 }

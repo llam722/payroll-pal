@@ -1,6 +1,6 @@
-const TimeStamps = () => {
+const Days = () => {
   return (
-      <section className="timecard-body">
+      <section className="days">
         <ul>
           <li><h5>MON</h5></li>
           <li><h5>TUE</h5></li>
@@ -14,4 +14,4 @@ const TimeStamps = () => {
   )
 }
 
-export default TimeStamps;
+export default Days;
