@@ -1,3 +1,4 @@
+import'./TimeCard.css'
 
 const TimeCard = () => {
   return (
@@ -17,8 +18,8 @@ const TimeCard = () => {
           <li><h5>SUN</h5></li>
         </ul>
       </section>
-    </div>
-  
+    <div className="hours"></div>
+  </div>
   )
 };
 
