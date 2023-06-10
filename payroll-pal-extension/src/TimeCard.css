@@ -1,5 +1,30 @@
 .timecard {
   display: flex;
   justify-content: space-evenly;
-  flex: auto;
+  background-color: #FFFFFF;
+  color: black;
+  border: 1px solid red;
 }
+
+.timecard-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 10rem; */
+  border: 1px solid black;
+  width: 60%
+}
+
+.calculations {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 10rem; */
+  border: 1px solid black;
+  width: 40%
+}
+
+/* .timecard- {
+  display: flex;
+  flex-basis: 200px;
+} */
