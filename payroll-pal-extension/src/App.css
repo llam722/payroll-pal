@@ -30,10 +30,15 @@
   flex-direction: column;
   height: 70%;
   border: 1px solid blue;
+  background-color: #FFFFFF;
 }
 
 .App-totals {
+  display: flex;
   border: 1px solid red;
   height: 15%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
   color: white;
 }

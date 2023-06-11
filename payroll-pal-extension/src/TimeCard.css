@@ -1,31 +1,23 @@
 .timecard {
   display: flex;
-  justify-content: space-evenly;
-  background-color: #FFFFFF;
+  justify-content: space-between;
   color: black;
   border: 1px solid red;
-  height: 15%
+  height: 15%;
 }
 
 .timecard-header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  /* gap: 10rem; */
-  /* border: 1px solid black; */
-  width: 70%
+  width: 70%;
+  border: 1px solid orange;
 }
 
-.calculations {
+/* .calculations {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  /* gap: 10rem; */
-  /* border: 1px solid black; */
-  width: 30%
-}
-
-/* .timecard- {
-  display: flex;
-  flex-basis: 200px;
+  gap: 1rem;
+  font-size: 1rem;
+  width: 30%;
+  border: 1px solid red;
 } */

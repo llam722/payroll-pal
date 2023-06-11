@@ -12,7 +12,7 @@ function App() {
         <TimeCard/>
       </div>
       <div className="App-totals">
-        <p>Hourly Rate</p>
+        <p className='hourly'>Hourly Rate</p>
         <p>Totals</p>
       </div>
 
