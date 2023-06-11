@@ -28,4 +28,6 @@
   width: 100%;
   background-color: #F5F5F5;
   gap: 1rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }

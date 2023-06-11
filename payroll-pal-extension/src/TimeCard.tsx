@@ -12,7 +12,6 @@ const TimeCard = () => {
 
       <div className="calculations">
         <div className="hours">
-
         <h4>Hours</h4>
         <h4>Decimal</h4>
         </div>
