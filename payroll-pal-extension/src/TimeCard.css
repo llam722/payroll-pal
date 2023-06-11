@@ -9,8 +9,8 @@
 
 .timecard-header {
   display: flex;
+  justify-content: space-evenly;
   flex: 2;
-  justify-content: center;
 }
 
 /* .timecard {
