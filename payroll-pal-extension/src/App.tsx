@@ -8,9 +8,13 @@ function App() {
       <header className="App-header">
         <h1>Payroll Pal</h1>
       </header>
-      <div className="App-body">
+
+
+      {/* <div className="App-body"> */}
         <TimeCard/>
-      </div>
+      {/* </div> */}
+
+
       <div className="App-totals">
         <p className='hourly'>Hourly Rate</p>
         <p>Totals</p>
