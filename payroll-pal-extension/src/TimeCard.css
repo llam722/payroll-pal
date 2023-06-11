@@ -21,17 +21,25 @@
 
 .timestamps {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .days-column {
   flex: 1;
 }
+
+/* 
 .first-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  vertical-align: middle;
   flex: 2;
 }
 .second-column {
   flex: 2;
-}
+} */
 
 .calculations {
   display: flex;

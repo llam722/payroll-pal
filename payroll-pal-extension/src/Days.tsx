@@ -6,6 +6,8 @@ const Days = () => {
       <ul className="days">
         <li>
           <h5>MON</h5>
+          <input type="text"></input>
+          <input type="text"></input>
         </li>
         <li>
           <h5>TUE</h5>

@@ -4,3 +4,8 @@
   list-style-type: none;
   align-items: flex-start;
 }
+
+.days li {
+  display: flex;
+  gap: 2rem;
+}
