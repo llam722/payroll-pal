@@ -10,15 +10,14 @@ const TimeCard = () => {
           <h2>OUT</h2>
         </div>
 
-        <div className="timestamps">
-          <div className="days-column">
-            <Days />
-          </div>
-          <div className="first-column">
-          </div>
-          <div className="second-column">
-          </div>
-        </div>
+        {/* <div className="timestamps">
+
+          {/* <Days /> */}
+          
+          {/* <div className="days-column"> */}
+          {/* </div> */}
+
+        {/* </div> */}
       </div>
 
       <div className="calculations">
@@ -27,6 +26,18 @@ const TimeCard = () => {
           <h4>Decimal</h4>
         </div>
       </div>
+
+      <div className="anotherbody">
+        <ul>
+          <li>
+            <p>Mon</p>
+            <input type="time"></input>
+            <input type="time"></input>
+          </li>
+          <li><input type="time"></input></li>
+        </ul>
+      </div>
+
     </div>
   );
 };

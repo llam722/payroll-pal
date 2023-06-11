@@ -1,14 +1,11 @@
 import './Days.css'
-import { useState } from 'react';
-
-
-const daysOftheWeek = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN']
 
 
 const Days = () => {
   return (
     <section>
       <ul className="week">
+
         <li className='day'>
           <h5>MON</h5>
           <input type="time"></input>
