@@ -1,16 +1,22 @@
 .timecard {
   display: flex;
   justify-content: space-between;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  /* border-left: 1px solid black;
+  border-right: 1px solid black; */
   background-color: #FFFFFF;
   color: black;
 }
 
 .timecard-header {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: flex-start;
   flex: 2;
+}
+
+.timecard-in-out {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .calculations {
