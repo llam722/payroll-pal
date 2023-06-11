@@ -12,7 +12,6 @@
   flex-direction: column;
   justify-content: flex-start;
   flex: 66%;
-  /* border: 1px solid blue; */
 }
 
 .timecard-in-out {
@@ -21,7 +20,7 @@
 }
 
 .timestamps {
-  display: inline-block;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -33,7 +32,6 @@
   font-size: 1rem;
   border: 1px solid red;
   /* height: 393.75px; */
-  /* overflow: hidden; */
 }
 
 .hours {
@@ -46,11 +44,19 @@
   text-underline-offset: 3px;
 }
 
-.anotherbody {
-  width: 100%;
+.day-row {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  gap: 8.5rem;
 }
 
-.anotherbody ul {
+.left {
   display: flex;
-  flex-direction: column;
+  gap: 4rem;
+}
+
+.right {
+  display: flex;
+  gap: 4rem;
 }

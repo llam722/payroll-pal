@@ -10,14 +10,6 @@ const TimeCard = () => {
           <h2>OUT</h2>
         </div>
 
-        {/* <div className="timestamps">
-
-          {/* <Days /> */}
-          
-          {/* <div className="days-column"> */}
-          {/* </div> */}
-
-        {/* </div> */}
       </div>
 
       <div className="calculations">
@@ -27,14 +19,20 @@ const TimeCard = () => {
         </div>
       </div>
 
-      <div className="anotherbody">
-        <ul>
-          <li>
-            <p>Mon</p>
-            <input type="time"></input>
-            <input type="time"></input>
-          </li>
-          <li><input type="time"></input></li>
+      <div className="timecard-body">
+        <ul className="day-row">
+          <div className="left">
+          <li>MON</li>
+          <li><input type='time'></input></li>
+          <li><input type='time'></input></li>
+
+          </div>
+          <div className="right">
+          <li>30.8</li>
+          <li>50.85</li>
+          </div>
+
+          
         </ul>
       </div>
 
