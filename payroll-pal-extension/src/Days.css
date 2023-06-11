@@ -1,11 +1,11 @@
-.days {
+.dweek {
   display: flex;
   flex-direction: column;
-  list-style-type: none;
   align-items: flex-start;
+  list-style-type: none;
 }
 
-.days li {
+/* .days li {
   display: flex;
-  gap: 2rem;
-}
+  justify-content: space-between;
+} */
