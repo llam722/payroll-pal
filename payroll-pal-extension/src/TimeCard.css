@@ -15,7 +15,7 @@
 
 .calculations {
   display: flex;
-  justify-content: space-evenly;
+  height: 393.75px;
   gap: 4px;
   flex: 1;
   font-size: 1rem;
@@ -25,5 +25,5 @@
 .hours {
   background-color: #F5F5F5;
   width: 50%;
-  height: 100%;
+  height: auto;
 }
