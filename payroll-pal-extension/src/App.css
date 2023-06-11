@@ -30,6 +30,6 @@
   height: 15%;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   color: white;
 }

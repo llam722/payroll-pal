@@ -11,8 +11,11 @@ const TimeCard = () => {
       </div>
 
       <div className="calculations">
-        <h4 className="hours">Hours</h4>
-        <h4 className="hours">Decimal</h4>
+        <div className="hours">
+
+        <h4>Hours</h4>
+        <h4>Decimal</h4>
+        </div>
       </div>
     </div>
   );

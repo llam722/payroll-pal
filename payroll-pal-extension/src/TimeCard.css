@@ -1,7 +1,6 @@
 .timecard {
   display: flex;
   justify-content: space-between;
-  flex: 1;
   border: 1px solid black;
   background-color: #FFFFFF;
   color: black;
@@ -20,10 +19,13 @@
   flex: 1;
   font-size: 1rem;
   border: 1px solid red;
+  overflow: hidden;
 }
 
 .hours {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
   background-color: #F5F5F5;
-  width: 50%;
-  height: auto;
+  gap: 1rem;
 }
