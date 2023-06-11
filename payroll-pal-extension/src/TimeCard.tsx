@@ -10,8 +10,16 @@ const TimeCard = () => {
         <h2>OUT</h2>
         </div>
         
-        <div className="timestamps">
-          <p>inout</p>
+        <div className="timestamps"> 
+          <div className="days-column">
+          <Days />
+          </div>
+          <div className="first-column">
+          <Days/>
+          </div>
+          <div className="second-column">
+          <Days/>
+          </div>
       </div>
       </div>
 

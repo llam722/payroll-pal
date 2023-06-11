@@ -19,6 +19,20 @@
   justify-content: space-evenly;
 }
 
+.timestamps {
+  display: flex;
+}
+
+.days-column {
+  flex: 1;
+}
+.first-column {
+  flex: 2;
+}
+.second-column {
+  flex: 2;
+}
+
 .calculations {
   display: flex;
   height: 393.75px;
