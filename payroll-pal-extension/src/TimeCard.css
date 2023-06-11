@@ -13,29 +13,17 @@
   flex: 2;
 }
 
-/* .timecard {
-  display: flex;
-  justify-content: space-evenly;
-  color: black;
-  border: 1px solid red;
-  width: 100%;
-  height: 15%;
-} */
-
-/* .timecard-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 70%;
-  border: 1px solid orange;
-} */
-
 .calculations {
   display: flex;
   justify-content: space-evenly;
+  gap: 4px;
   flex: 1;
-  gap: 1rem;
   font-size: 1rem;
   border: 1px solid red;
-  background-color: antiquewhite;
+}
+
+.hours {
+  background-color: #F5F5F5;
+  width: 50%;
+  height: 100%;
 }
