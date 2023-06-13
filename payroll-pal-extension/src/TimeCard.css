@@ -25,6 +25,11 @@
   align-items: center;
 }
 
+.timecard-body {
+  border: 1px solid red;
+  width: 100%;
+}
+
 .calculations {
   display: flex;
   flex: 33%;
@@ -46,7 +51,8 @@
 .day-row {
   display: flex;
   list-style-type: none;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  border: 1px solid red;
   gap: 9rem;
 }
 
@@ -57,5 +63,5 @@
 
 .right {
   display: flex;
-  gap: 6rem;
+  gap: 4rem;
 }
