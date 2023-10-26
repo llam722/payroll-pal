@@ -24,6 +24,10 @@
   display: flex;
   justify-content: flex-start;
   width: 40%;
+  font-family: 'Inter', 'sans-serif';
+  color: #FFA24D;
+  font-size: 1.25rem;
+  font-weight: 900;
 }
 
 .hours {
