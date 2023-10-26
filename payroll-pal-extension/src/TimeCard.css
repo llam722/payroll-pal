@@ -3,14 +3,15 @@
   justify-content: space-between;
   background-color: #FFFFFF;
   color: black;
-  /* border: 1px solid black; */
+  height: 2.5rem;
 }
 
 .timecard-header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: self-end;
+  text-align: end;
   width: 60%;
 }
 
@@ -31,12 +32,13 @@
   width: 40%;
   background-color: white;
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 2px;
+  z-index: 1;
 }
 
 .hours-hours {
   display: flex;
-  background-color: #F5F5F5;;
+  background-color: #F5F5F5;
   justify-content: center;
   width: 49%;
 }

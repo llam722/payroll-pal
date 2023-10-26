@@ -13,7 +13,6 @@ const TimeCard = () => {
       
       <div className="hours">
         <div className="hours-hours">
-
           <h4>Hours</h4>
         </div>
         <div>
