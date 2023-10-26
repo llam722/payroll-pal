@@ -3,34 +3,20 @@ import './Days.css'
 
 const Days = () => {
   return (
-    <section>
-      <ul className="week">
-
-        <li className='day'>
-          <h5>MON</h5>
+    <>
+      <div className='day'>
+        
+        <h5 className='dayOfWeek'>MON</h5>
+        <div className="timeInput">
+        <input type="time"></input>
           <input type="time"></input>
-          <input type="time"></input>
-        </li>
-        <li>
-          <h5>TUE</h5>
-        </li>
-        <li>
-          <h5>WED</h5>
-        </li>
-        <li>
-          <h5>THU</h5>
-        </li>
-        <li>
-          <h5>FRI</h5>
-        </li>
-        <li>
-          <h5>SAT</h5>
-        </li>
-        <li>
-          <h5>SUN</h5>
-        </li>
-      </ul>
-    </section>
+        </div>
+        <div> 12323</div>
+        <div> 12312321</div>
+        
+      </div>
+     
+    </>
   );
 }
 

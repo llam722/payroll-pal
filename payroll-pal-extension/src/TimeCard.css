@@ -3,65 +3,47 @@
   justify-content: space-between;
   background-color: #FFFFFF;
   color: black;
-  flex-wrap: wrap;
   /* border: 1px solid black; */
 }
 
 .timecard-header {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex: 66%;
-}
-
-.timecard-in-out {
-  display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
-}
-
-.timestamps {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  width: 60%;
 }
 
-.timecard-body {
-  border: 1px solid red;
-  width: 100%;
-}
-
-.calculations {
+.days-spacer {
   display: flex;
-  flex: 33%;
-  font-size: 1rem;
-  border: 1px solid red;
-  /* height: 393.75px; */
+  width: 20%;
+}
+
+.column {
+  display: flex;
+  justify-content: flex-start;
+  width: 40%;
 }
 
 .hours {
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  background-color: #F5F5F5;
-  gap: 1rem;
+  justify-content: space-between;
+  width: 40%;
+  background-color: white;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.day-row {
+.hours-hours {
   display: flex;
-  list-style-type: none;
-  /* justify-content: space-evenly; */
-  border: 1px solid red;
-  gap: 9rem;
+  background-color: #F5F5F5;;
+  justify-content: center;
+  width: 49%;
 }
 
-.left {
+.hours-decimal {
   display: flex;
-  gap: 4rem;
-}
-
-.right {
-  display: flex;
-  gap: 4rem;
+  background-color: #F5F5F5;
+  justify-content: center;
+  width: 49%;
 }

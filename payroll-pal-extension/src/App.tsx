@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import TimeCard from './TimeCard'
+import Days from './Days';
 
 function App() {
   return (
@@ -9,10 +10,12 @@ function App() {
         <h1>Payroll Pal</h1>
       </header>
 
-
-      {/* <div className="App-body"> */}
         <TimeCard/>
-      {/* </div> */}
+      <div>
+
+      </div>
+
+      <Days/>
 
 
       <div className="App-totals">

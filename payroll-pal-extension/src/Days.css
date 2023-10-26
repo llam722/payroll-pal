@@ -12,5 +12,19 @@
 
 .day {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+}
+
+.dayOfWeek {
+  display: flex;
+  width: 20%;
+}
+
+.timeInput {
+  display: flex;
+  justify-content: flex-start;
+  width: 40%;
 }
