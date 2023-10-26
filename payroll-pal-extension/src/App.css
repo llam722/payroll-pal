@@ -31,5 +31,19 @@
   flex-direction: column;
   justify-content: center;
   /* align-items: flex-end; */
+  text-align: right;
   color: white;
+  margin-right: 3rem;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
+  margin-bottom: .5rem;
+}
+
+.input-salary {
+  margin-left: 2rem;
 }

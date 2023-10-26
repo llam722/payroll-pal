@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
-import TimeCard from './TimeCard'
-import Days from './Days';
+import React from "react";
+import "./App.css";
+import TimeCard from "./TimeCard";
+import Days from "./Days";
 
 function App() {
   return (
@@ -10,24 +10,38 @@ function App() {
         <h1>Payroll Pal</h1>
       </header>
       <div className="timebody">
-        
-        <TimeCard/>
+        <TimeCard />
 
-      <Days/>
-      <Days/>
-      <Days/>
-      <Days/>
-      <Days/>
-      <Days/>
-      <Days/>
-</div>
-
-      <div className="App-totals">
-        <p className='hourly'>Hourly Rate</p>
-        <p>Totals</p>
+        <Days />
+        <Days />
+        <Days />
+        <Days />
+        <Days />
+        <Days />
+        <Days />
       </div>
 
-      
+      <div className="App-totals">
+        <div>
+          <label>
+            Hourly Rate:
+            <input
+              className="input-salary"
+              type="number"
+              style={{ width: "10%" }}
+            />
+          </label>
+
+          <div>
+            Total Salary:
+            <input
+              className="input-salary"
+              type="number"
+              style={{ width: "10%" }}
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
