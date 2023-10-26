@@ -16,6 +16,12 @@ function App() {
       </div>
 
       <Days/>
+      <Days/>
+      <Days/>
+      <Days/>
+      <Days/>
+      <Days/>
+      <Days/>
 
 
       <div className="App-totals">

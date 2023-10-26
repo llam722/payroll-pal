@@ -4,7 +4,7 @@
   justify-content: space-between;
   background-color: #FFFFFF;
   color: black;
-  height: 2.5rem;
+  height: 3rem;
 }
 
 .day {
@@ -18,7 +18,7 @@
 
 .dayOfWeek {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   width: 20%;
   color: black;
 }
