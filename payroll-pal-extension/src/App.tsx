@@ -9,11 +9,9 @@ function App() {
       <header className="App-header">
         <h1>Payroll Pal</h1>
       </header>
-
+      <div className="timebody">
+        
         <TimeCard/>
-      <div>
-
-      </div>
 
       <Days/>
       <Days/>
@@ -22,7 +20,7 @@ function App() {
       <Days/>
       <Days/>
       <Days/>
-
+</div>
 
       <div className="App-totals">
         <p className='hourly'>Hourly Rate</p>
