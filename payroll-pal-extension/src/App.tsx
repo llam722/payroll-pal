@@ -55,7 +55,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1 className="App-header">Payroll Pal</h1>
+      <h1 className="App-header">Weekly Payroll Pal</h1>
       <div
         style={{
           backgroundColor: "white",
