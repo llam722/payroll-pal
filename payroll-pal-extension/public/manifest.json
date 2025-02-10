@@ -2,7 +2,7 @@
   "short_name": "Payroll Pal",
   "name": "Payroll Pal",
   "version": "1.0",
-  "description": "Hourly Calculator for Payroll",
+  "description": "Hourly and Minute Calculator by week to assist with Payroll",
   "manifest_version": 3,
   "author": "Louis Lam",
   "icons": [
