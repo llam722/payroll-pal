@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import { useForm, SubmitHandler, set } from "react-hook-form";
+import { useForm, SubmitHandler } from "react-hook-form";
 import { calculateWorkedTime } from "./utils/calculateWorkedTime";
 
 export default function App() {
