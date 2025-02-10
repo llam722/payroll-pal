@@ -6,11 +6,11 @@
   text-align: center;
   /* width: 750px; */
   width: 500px;
-  height: 562.5px;
+  height: 530px;
   border: 1px solid rgba(180, 175, 175, 0.9);
   background-color: #ffb978;
   color: white;
-  border-radius: 40px;
+  border-radius: 10px;
   font-family: "Inter", "sans-serif";
   box-sizing: border-box;
 }

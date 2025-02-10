@@ -10,6 +10,8 @@ export default function App() {
     { label: "Wednesday", key: "wednesday" },
     { label: "Thursday", key: "thursday" },
     { label: "Friday", key: "friday" },
+    { label: "Saturday", key: "saturday" },
+    { label: "Sunday", key: "sunday" },
   ];
 
   type Inputs = {
@@ -30,13 +32,25 @@ export default function App() {
   } = useForm<Inputs>();
 
   const onSubmit: SubmitHandler<Inputs> = (data) => {
+    // This variable will accumulate the total worked minutes.
+    let totalWorkedMinutes = 0;
+
+    // Iterate through each day in the form data.
     for (const day in data) {
       if (!data[day].timeIn || !data[day].timeOut) continue;
+
       const { timeIn, timeOut } = data[day];
       const workedTime = calculateWorkedTime(timeIn, timeOut);
-      setTotalHours(workedTime.hours);
-      settotalMinutes(workedTime.minutes);
+      // Convert worked time to minutes and add to total.
+      totalWorkedMinutes += workedTime.hours * 60 + workedTime.minutes;
     }
+
+    // Calculate final hours and minutes from the accumulated minutes.
+    const finalHours = Math.floor(totalWorkedMinutes / 60);
+    const finalMinutes = totalWorkedMinutes % 60;
+
+    setTotalHours(finalHours);
+    settotalMinutes(finalMinutes);
   };
 
   return (
@@ -45,7 +59,7 @@ export default function App() {
       <div
         style={{
           backgroundColor: "white",
-          height: "65%",
+          height: "70%",
           color: "black",
           padding: "5px",
         }}
