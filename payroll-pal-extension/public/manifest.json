@@ -5,23 +5,11 @@
   "description": "Hourly and Minute Calculator by week to assist with Payroll",
   "manifest_version": 3,
   "author": "Louis Lam",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "favicon.ico",
-      "sizes": "48x48",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "favicon.ico",
-      "sizes": "128x128",
-      "type": "image/x-icon"
-    }
-  ],
+  "icons": {
+    "16": "favicon.ico",
+    "48": "favicon.ico",
+    "128": "favicon.ico"
+  },
   "permissions": [],
   "action": {
     "default_popup": "index.html",
