@@ -32,10 +32,14 @@ label {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  text-align: right;
+  align-items: center;
+  text-align: center;
   margin-bottom: 0.5rem;
 }
 
+input {
+  width: 100px;
+}
 /* Hide number input arrows */
 
 /*Chrome, Safari, Edge, Opera */
@@ -52,5 +56,3 @@ input[type="number"] {
 p {
   font-size: xx-small;
 }
-
-/* FavIcon credit to Assia Benkerroum */

@@ -99,22 +99,12 @@ export default function App() {
                 }}
               >
                 <label>IN</label>
-                <input
-                  type="time"
-                  {...register(`${key}.timeIn`, {
-                    // required: `${label} clock-in time is required`,
-                  })}
-                />
+                <input type="time" {...register(`${key}.timeIn`, {})} />
                 {errors?.[key]?.timeIn?.message && (
                   <p>{errors?.[key]?.timeIn?.message}</p>
                 )}
                 <label>OUT</label>
-                <input
-                  type="time"
-                  {...register(`${key}.timeOut`, {
-                    // required: `${label} clock-out time is required`,
-                  })}
-                />
+                <input type="time" {...register(`${key}.timeOut`, {})} />
 
                 {errors?.[key]?.timeOut?.message && (
                   <p>{errors?.[key]?.timeOut?.message}</p>
